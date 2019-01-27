@@ -1,0 +1,30 @@
+
+:root{/*把css变量写在根目录环境[节点]（也可以写在html body等变量调用的父级环境[节点]中）*/
+  --button-height: 32px;
+  --font-size: 14px;
+  --button-bg: #fff;
+  --button-active-bg: #eee;
+  --border-radius: 4px;
+  --color: #333;
+  --border-color: #999;
+  --border-color-hover: #666;
+}
+
+.btn{
+  font-size: var(--font-size);
+  height: var(--button-height);
+  padding: 0 1em;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background-color: var(--button-bg);
+}
+.btn:focus{
+  outline: none;
+}
+.btn:hover{
+  cursor: pointer;
+  border-color: var(--border-color-hover);
+}
+.btn:active{
+  background-color: var(--button-active-bg);
+}

@@ -1,0 +1,33 @@
+
+.jigsaw-wrapper{
+  margin: 0 auto;   
+}
+.jigsaw-wrapper{
+  text-align: center;
+  /* border: 1px red solid; */
+}
+.jigsaw-wrapper .btn{
+  margin: 20px 0;
+}
+
+.jigsaw-wrapper .image-wrapper{
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0,0,0);
+}
+.jigsaw-wrapper .image-wrapper div{
+  position: absolute;
+  box-shadow: 0 0 1px #fff;
+  /* border: .5px solid #fff;
+  box-sizing: border-box; */
+}
+.jigsaw-wrapper .start div{
+  cursor: pointer;
+}
+.jigsaw-wrapper .image-wrapper.tran-start div{
+  transition: transform .3s linear;
+}
+.jigsaw-wrapper .start-move div{
+  cursor: move;
+}
