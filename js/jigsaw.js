@@ -34,7 +34,7 @@
       //初始图片片段数组
       this.oriArr = []
       //配置参数
-      for (var item in options) { //不必深度克隆
+      for (var item in options) { //未深度克隆
         this.config[item] = options[item]
       }
       this.render()
